@@ -15,11 +15,13 @@ export const metadata: Metadata = {
   description: "UK-based software development company specializing in business and domestic software solutions.",
   icons: {
     icon: [
-      { url: '/logo.png', sizes: 'any' }
+      { url: '/logo.png', sizes: '192x192', type: 'image/png' },
+      { url: '/logo.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: [
-      { url: '/logo.png' }
+      { url: '/logo.png', sizes: '180x180', type: 'image/png' }
     ],
+    shortcut: ['/logo.png']
   },
   openGraph: {
     title: "IC TECH LTD | Premium Software Development",
