@@ -45,6 +45,15 @@ export default function Services() {
             Whether you need an enterprise system or a smart home application, we've got you covered.
           </p>
         </div>
+        
+        <div className="mb-20 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent z-10" />
+          <img src="/mobile_app.png" alt="Smart Home Mobile Application" className="w-full h-[400px] object-cover" />
+          <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-16 z-20 w-full md:w-1/2">
+            <h3 className="text-2xl md:text-4xl font-bold mb-4">Smart Solutions for Modern Living</h3>
+            <p className="text-gray-300 text-lg">We bring intuitive, beautifully designed applications to both business operations and domestic smart home environments.</p>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {services.map((service, index) => (

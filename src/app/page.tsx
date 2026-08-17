@@ -75,6 +75,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Innovation Section with Image */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6">Innovating the Future of Software</h2>
+              <p className="text-gray-400 text-lg mb-6 leading-relaxed">
+                At IC TECH LTD, we don't just write code—we engineer solutions that drive real-world impact. Whether you're modernizing legacy business systems or pioneering new smart home applications, our holistic approach ensures scalability and performance.
+              </p>
+              <ul className="space-y-4 mb-8">
+                {['Cloud-Native Architectures', 'AI & Machine Learning Integrations', 'Real-time Data Processing'].map((item, idx) => (
+                  <li key={idx} className="flex items-center text-gray-300">
+                    <CheckCircle className="text-blue-500 mr-3" size={20} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link href="/about" className="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center transition-colors">
+                Learn more about our team <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </div>
+            <div className="relative rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(37,99,235,0.15)] border border-slate-800">
+              <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/40 to-transparent mix-blend-overlay z-10" />
+              <img src="/business_software.png" alt="Modern enterprise software interface" className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Trust Section */}
       <section className="py-24 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

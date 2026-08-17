@@ -54,6 +54,16 @@ export default function About() {
           </div>
         </div>
 
+
+        <div className="mb-24 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl relative">
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent z-10" />
+          <img src="/team_coding.png" alt="IC TECH Development Team" className="w-full h-[400px] object-cover" />
+          <div className="absolute bottom-0 left-0 p-8 z-20">
+            <h3 className="text-2xl md:text-3xl font-bold mb-2">Dedicated Professionals</h3>
+            <p className="text-gray-300 max-w-2xl">Our team of expert engineers, designers, and strategists work collaboratively to bring your vision to life.</p>
+          </div>
+        </div>
+
         {/* Core Values */}
         <div className="mb-24">
           <div className="text-center mb-16">
