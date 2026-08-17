@@ -6,7 +6,13 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-950 to-slate-950 -z-10" />
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity" 
+          style={{ backgroundImage: "url('/business_software.png')" }} 
+        />
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950/80 to-slate-950 -z-10" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 md:mb-8">
