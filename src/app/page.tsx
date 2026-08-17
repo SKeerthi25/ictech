@@ -9,20 +9,20 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-950 to-slate-950 -z-10" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 md:mb-8">
               Empowering Future With <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
                 Premium Software
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-400 mb-10 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-400 mb-8 md:mb-10 leading-relaxed px-2">
               Business and domestic software solutions crafted with precision. From enterprise systems to smart home automation, we build tech that works for you.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-all hover:scale-105 shadow-[0_0_20px_rgba(37,99,235,0.4)] flex items-center justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full px-4 sm:px-0">
+              <Link href="/contact" className="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-all hover:scale-105 shadow-[0_0_20px_rgba(37,99,235,0.4)] flex items-center justify-center">
                 Get a Quote <ArrowRight className="ml-2" size={20} />
               </Link>
-              <Link href="/portfolio" className="px-8 py-4 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-all hover:scale-105 border border-slate-700 flex items-center justify-center">
+              <Link href="/portfolio" className="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-all hover:scale-105 border border-slate-700 flex items-center justify-center">
                 View Our Work
               </Link>
             </div>
@@ -161,11 +161,11 @@ export default function Home() {
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/20 -z-10" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">Ready to transform your ideas into reality?</h2>
-          <p className="text-xl text-gray-300 mb-10">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-8">Ready to transform your ideas into reality?</h2>
+          <p className="text-lg md:text-xl text-gray-300 mb-8 md:mb-10 px-2">
             Let's discuss how our bespoke software solutions can elevate your business or home.
           </p>
-          <Link href="/contact" className="inline-flex px-8 py-4 rounded-full bg-white text-blue-900 font-bold transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] items-center justify-center text-lg">
+          <Link href="/contact" className="inline-flex w-full sm:w-auto px-6 py-4 md:px-8 md:py-4 rounded-full bg-white text-blue-900 font-bold transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] items-center justify-center text-base md:text-lg">
             Start Your Project Today
           </Link>
         </div>

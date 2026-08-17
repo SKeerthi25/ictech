@@ -80,7 +80,7 @@ export default function Services() {
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
             Don't see exactly what you're looking for? We specialize in bespoke software development tailored to unique requirements.
           </p>
-          <Link href="/contact" className="inline-flex px-8 py-4 rounded-full bg-white text-blue-900 font-bold transition-all hover:scale-105 shadow-lg">
+          <Link href="/contact" className="inline-flex w-full sm:w-auto px-6 py-4 md:px-8 md:py-4 rounded-full bg-white text-blue-900 font-bold transition-all hover:scale-105 shadow-lg items-center justify-center text-base md:text-lg">
             Let's Discuss Your Project
           </Link>
         </div>

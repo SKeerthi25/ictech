@@ -88,14 +88,14 @@ export default function About() {
               { year: "2023", title: "Enterprise Scaling", desc: "Expanded our team to handle large-scale enterprise ERP systems and complex web applications." },
               { year: "2026", title: "Looking Forward", desc: "Continuing to pioneer AI integrations and modern tech stacks for a global client base." }
             ].map((item, idx) => (
-              <div key={idx} className={`relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active`}>
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-900 group-[.is-active]:bg-blue-600 text-slate-500 group-[.is-active]:text-blue-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
+              <div key={idx} className={`relative flex items-center md:justify-normal md:odd:flex-row-reverse group is-active`}>
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-slate-700 bg-slate-900 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                 </div>
-                <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-900/50 border border-slate-800 p-6 rounded-2xl shadow-xl">
-                  <div className="flex items-center justify-between mb-2">
-                    <h4 className="font-bold text-white text-lg">{item.title}</h4>
-                    <span className="text-blue-400 font-mono font-bold">{item.year}</span>
+                <div className="flex-1 ml-4 md:ml-0 md:w-[calc(50%-2.5rem)] md:flex-none bg-slate-900/50 border border-slate-800 p-5 md:p-6 rounded-2xl shadow-xl">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2 gap-1 sm:gap-0">
+                    <h4 className="font-bold text-white text-base md:text-lg">{item.title}</h4>
+                    <span className="text-blue-400 font-mono font-bold text-sm">{item.year}</span>
                   </div>
                   <p className="text-gray-400 leading-relaxed text-sm">{item.desc}</p>
                 </div>

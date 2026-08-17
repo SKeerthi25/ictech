@@ -75,7 +75,7 @@ export default function Portfolio() {
         </div>
 
         <div className="border-t border-slate-800 pt-16 mt-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
               { stat: "50+", label: "Projects Delivered" },
               { stat: "99.9%", label: "Uptime Guaranteed" },
