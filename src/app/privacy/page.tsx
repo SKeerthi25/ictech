@@ -64,8 +64,8 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy, please contact us:
             </p>
             <ul className="list-none text-gray-300 mt-4 space-y-2">
-              <li>By email: tech@ictech.com</li>
-              <li>By visiting this page on our website: www.ictech.co.uk/contact</li>
+              <li>By email: tech@ictechlimited.com</li>
+              <li>By visiting this page on our website: www.ictechltd.co.uk/contact</li>
               <li>By phone number: 07344 860892</li>
             </ul>
           </section>

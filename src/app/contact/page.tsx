@@ -127,11 +127,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-1">Email Us</h4>
-                    <a href="mailto:tech@ictech.com" className="text-gray-400 hover:text-white transition-colors block mb-1">
-                      tech@ictech.com
-                    </a>
-                    <a href="mailto:iceuk1947@gmail.com" className="text-gray-400 hover:text-white transition-colors block text-sm">
-                      General Enquiries: iceuk1947@gmail.com
+                    <a href="mailto:tech@ictechlimited.com" className="text-gray-400 hover:text-white transition-colors block mb-1">
+                      tech@ictechlimited.com
                     </a>
                   </div>
                 </div>

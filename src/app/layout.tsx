@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.ictech.co.uk'),
+  metadataBase: new URL('https://www.ictechltd.co.uk'),
   title: "IC TECH LTD | Premium Software Development",
   description: "UK-based software development company specializing in business and domestic software solutions.",
   icons: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IC TECH LTD | Premium Software Development",
     description: "UK-based software development company specializing in business and domestic software solutions.",
-    url: 'https://www.ictech.co.uk',
+    url: 'https://www.ictechltd.co.uk',
     siteName: 'IC TECH LTD',
     images: [
       {

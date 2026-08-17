@@ -11,7 +11,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-white">1. Agreement to Terms</h2>
             <p className="text-gray-300 leading-relaxed">
-              These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and IC TECH LTD ("Company", "we", "us", or "our"), concerning your access to and use of the www.ictech.co.uk website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto.
+              These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and IC TECH LTD ("Company", "we", "us", or "our"), concerning your access to and use of the www.ictechltd.co.uk website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto.
             </p>
           </section>
 
