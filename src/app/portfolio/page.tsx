@@ -75,11 +75,9 @@ export default function Portfolio() {
         </div>
 
         <div className="border-t border-slate-800 pt-16 mt-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center max-w-4xl mx-auto">
             {[
-              { stat: "50+", label: "Projects Delivered" },
               { stat: "99.9%", label: "Uptime Guaranteed" },
-              { stat: "15+", label: "Enterprise Clients" },
               { stat: "24/7", label: "Dedicated Support" }
             ].map((item, idx) => (
               <div key={idx} className="p-6">
