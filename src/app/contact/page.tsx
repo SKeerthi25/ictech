@@ -25,10 +25,10 @@ export default function Contact() {
 
     try {
       await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+        'service_2pf38go',
+        'template_04dc87j',
         form.current,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ''
+        'SnMz_nS60V230prJx'
       );
       
       setSubmitStatus("success");
