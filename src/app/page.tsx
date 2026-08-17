@@ -165,19 +165,18 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { name: "Sarah Jenkins", role: "CEO, RetailCorp", quote: "IC TECH completely transformed our inventory management. The new ERP system saves us hours every single day." },
-              { name: "David Chen", role: "Homeowner", quote: "The smart home integration they built for my property is flawless. Everything from lighting to security is now controlled via one elegant app." },
-              { name: "Marcus Thorne", role: "Operations Director", quote: "Professional, responsive, and highly skilled. They delivered our logistics mobile app ahead of schedule and under budget." }
+              { role: "CEO, RetailCorp", quote: "IC TECH completely transformed our inventory management. The new ERP system saves us hours every single day." },
+              { role: "Private Homeowner", quote: "The smart home integration they built for my property is flawless. Everything from lighting to security is now controlled via one elegant app." },
+              { role: "Operations Director", quote: "Professional, responsive, and highly skilled. They delivered our logistics mobile app ahead of schedule and under budget." }
             ].map((testimonial, i) => (
               <div key={i} className="p-8 rounded-3xl bg-slate-900/60 border border-slate-800 flex flex-col">
                 <p className="text-gray-300 italic mb-6 flex-grow">"{testimonial.quote}"</p>
                 <div className="flex items-center pt-6 border-t border-slate-800">
                   <div className="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center text-white font-bold mr-4">
-                    {testimonial.name.charAt(0)}
+                    {testimonial.role.charAt(0)}
                   </div>
                   <div>
-                    <h5 className="font-bold text-white text-sm">{testimonial.name}</h5>
-                    <p className="text-xs text-blue-400">{testimonial.role}</p>
+                    <h5 className="font-bold text-white text-sm">{testimonial.role}</h5>
                   </div>
                 </div>
               </div>
