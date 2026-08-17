@@ -31,6 +31,34 @@ export default function Portfolio() {
       tags: ["React Native", "Firebase", "Maps API"],
       imageColor: "bg-purple-900/30",
     },
+    {
+      title: "AI Customer Support Bot",
+      category: "AI Integration",
+      description: "An intelligent, natural language processing chatbot deployed across client websites to handle tier-1 support queries automatically.",
+      tags: ["OpenAI API", "Python", "FastAPI"],
+      imageColor: "bg-slate-800/50",
+    },
+    {
+      title: "Real Estate CRM",
+      category: "Business Software",
+      description: "A bespoke customer relationship management tool for property agencies to track leads, viewings, and finalized contracts.",
+      tags: ["Next.js", "GraphQL", "MongoDB"],
+      imageColor: "bg-blue-800/30",
+    },
+    {
+      title: "Remote Security Monitor",
+      category: "Domestic Solution",
+      description: "A secure, encrypted mobile app allowing homeowners to stream security cameras and control smart locks remotely.",
+      tags: ["Swift", "WebRTC", "AWS"],
+      imageColor: "bg-teal-800/30",
+    },
+    {
+      title: "Telehealth Portal",
+      category: "Web Application",
+      description: "A HIPAA-compliant web portal connecting patients with doctors for virtual consultations and secure medical record sharing.",
+      tags: ["React", "Node.js", "WebRTC"],
+      imageColor: "bg-indigo-800/30",
+    }
   ];
 
   return (
